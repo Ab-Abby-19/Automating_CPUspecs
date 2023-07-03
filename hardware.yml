@@ -10,6 +10,6 @@
     - name: Save Hardware Information to YAML
       copy:
         content: "{{ hardware_specs | to_yaml }}"
-        dest: "/home/abhinav/Abhinav/Ansible/hardwarespecs.yml"
+        dest: "Destination to path"
       delegate_to: localhost
 
